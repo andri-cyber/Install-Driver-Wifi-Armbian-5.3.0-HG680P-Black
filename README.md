@@ -9,3 +9,9 @@ How to install
     sudo /sbin/depmod -a
 
     sudo modprobe rtl8189fs
+    
+    nmcli device
+    
+    nmcli device wifi list
+
+    nmcli device wifi connect "Nama_SSID" password "Password_WiFi"
